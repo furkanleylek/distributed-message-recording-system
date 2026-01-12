@@ -1,10 +1,9 @@
 # Distributed Message Recording System
 
-==============================================================
-
+---
 Bu proje, birden fazla sunucunun dağıtık bir küme (“family”) oluşturduğu,  **gRPC + Protobuf**  ile kendi aralarında haberleştiği ve aynı zamanda  **lider üye (cluster gateway)**  üzerinden dış dünyadan gelen  **TCP text mesajlarını**  tolerans gösterilen üye miktarı kadar diğer üyelerle paylaştığı, gerektiği zaman  **lider üyenin** mesajı diğer üyelerden aldığı, çökme durumlarının test edildiği, tolerans miktarının ve sunucu miktarının ölçeklenebilir olduğu bir dağıtık sistem proje örneğidir . 
 
-==============================================================
+---
 
 
 # Özellikler
@@ -28,7 +27,7 @@ Bu proje, birden fazla sunucunun dağıtık bir küme (“family”) oluşturdu�
 ### ✔ MessageIndex ile mesajların ve üyelerin kaydı
 
 
-==============================================================
+---
 
 ## 📁 Proje Yapısı
 
@@ -62,7 +61,7 @@ Bu proje, birden fazla sunucunun dağıtık bir küme (“family”) oluşturdu�
     ├── package-lock.json**
 
 
-==============================================================
+---
 
 ## 🔧 Çalıştırma
 
@@ -70,7 +69,8 @@ Bu proje, birden fazla sunucunun dağıtık bir küme (“family”) oluşturdu�
    
  Bu komut ile projeyi çalıştırabilirsiniz . 
 
-==============================================================
+---
+
 
 ## ▶️  Çalışma Prensibi
 
