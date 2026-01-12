@@ -103,6 +103,12 @@ Bu proje, birden fazla sunucunun dağıtık bir küme (“family”) oluşturdu�
 > gerçekleştirir .
 
 
+> Burada ki örnekte tolerance değeri 5, bu yüzden gelen her SET komutunu önce Lider node a yazar, ardından da 5 farklı node a dağıtır,
+nodeların mesaj miktarı sayısının yaklaşık olarak eşit olduğu gözlemlenebilir .
+> 
+<img width="1334" height="448" alt="tolerance5" src="https://github.com/user-attachments/assets/15fb6684-e822-4a28-a5bb-cd479a5e5063" />
+
+
 ### 3. Komutların İşleyişi
 
 
